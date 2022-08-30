@@ -10,7 +10,20 @@
                             // Project details
                             h2.text-uppercase Diane Hiebert
                             //p.item-intro.text-muted [Say something special]
-                            img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/diane-knox.jpg', alt='Diane Hiebert')
+                            #carouselExampleControls.carousel.slide(data-bs-ride='carousel')
+                                .carousel-inner
+                                    .carousel-item.active
+                                        img.d-block.w-100(src='assets/img/portfolio/diane.jpg' alt='...')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/diane-knox.jpeg' alt='...')
+                                button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev')
+                                    span.carousel-control-prev-icon(aria-hidden='true')
+                                    span.visually-hidden Previous
+                                button.carousel-control-next(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='next')
+                                    span.carousel-control-next-icon(aria-hidden='true')
+                                    span.visually-hidden Next
+
+                            //img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/diane-knox.jpg', alt='Diane Hiebert')
                             ul.list-inline
                                 li
                                     strong Name:
