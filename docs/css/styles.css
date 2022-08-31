@@ -11533,6 +11533,15 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+.carousel-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  overflow: hidden;
+  height: 50vh;
+}
+
 .timeline {
   position: relative;
   padding: 0;

@@ -106,3 +106,12 @@
         }
     }
 }
+
+.carousel-item {
+    img {
+        object-fit: contain;
+        object-position: center;
+        overflow: hidden;
+        height: 50vh;
+    }
+}
