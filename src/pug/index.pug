@@ -41,12 +41,13 @@ html(lang='en')
                             a.nav-link(href='#services') Sponsor Our Athletes
                         li.nav-item
                             a.nav-link(href='#portfolio') Team Canada 2022
-                        //li.nav-item
-                        //    a.nav-link(href='#services') Sponsor Our Athletes
+
                         //li.nav-item
                         //    a.nav-link(href='#team') Team
                         li.nav-item
                             a.nav-link(href='#contact') Contact
+                        li.nav-item
+                            a.nav-link(href='https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022') Donate Here
         // Masthead
         header.masthead
             .container
@@ -138,6 +139,8 @@ html(lang='en')
                     h4.my-3 Accommodation
                     p.text-muted
                         | Proper nutrition and rest are key to our athletes health and performance. Accommodation Include: Lodging and Meals during our stay in Argentina.
+            .text-center
+                a.btn.btn-primary.btn-xl.btn-round(href="https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022") Donate Now
         // Portfolio Grid
         section#portfolio.page-section.bg-light
         .container
@@ -413,11 +416,6 @@ html(lang='en')
                                 .invalid-feedback(data-sb-feedback='message:required')
                                     | A message is required.
 
-                    // Submit success message
-                    //
-                    // This is what your users will see when the form
-                    // has successfully submitted
-
                     #submitSuccessMessage.d-none
                         .text-center.text-white.mb-3
                             .fw-bolder Form submission successful!
@@ -425,10 +423,6 @@ html(lang='en')
                             //br
                             //a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
 
-                    // Submit error message
-                    //
-                    // This is what your users will see when there is
-                    // an error submitting the form
 
                     #submitErrorMessage.d-none
                         .text-center.text-danger.mb-3 Error sending message!
