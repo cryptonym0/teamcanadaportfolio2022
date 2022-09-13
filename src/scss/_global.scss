@@ -1,10 +1,10 @@
-// 
+//
 // Global theme styling
-// 
+//
 
 // Scroll padding for all scroll targets on page used with
 // native CSS smooth scrolling
-// 
+//
 // https://caniuse.com/?search=scroll-padding
 
 html {
@@ -41,6 +41,12 @@ p {
         margin-bottom: 4rem;
     }
 }
+
+//#script_widget_button {
+//    width: 100%;
+//    margin: 0 auto;
+//    object-position: center;
+//}
 
 // Increase the padding on sections when screen size is greater
 // than the medium breakpoint (set by Bootstrap)

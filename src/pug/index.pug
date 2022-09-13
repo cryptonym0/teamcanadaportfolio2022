@@ -15,6 +15,9 @@ html(lang='en')
 
         // Font Awesome icons (free version)
         script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+        //Jquery
+        //script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+        //script(type="text/javascript", src="https://my.charitableimpact.com/widget/js/loader.js?MjIyNjIsbWVkaXVtLGJsdWUsV29ybGQgU2thdGUgR2FtZXMgVGVhbSBDYW5h%0AZGEgMjAyMixncm91cA%3D%3D%0A", id="chimp-button-script2", data-hide-button="true", data-script-id="main").
 
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
@@ -139,8 +142,10 @@ html(lang='en')
                     h4.my-3 Accommodation
                     p.text-muted
                         | Proper nutrition and rest are key to our athletes health and performance. Accommodation Include: Lodging and Meals during our stay in Argentina.
-            .text-center
+            .text-center(id="script_widget_button")
                 a.btn.btn-primary.btn-xl.btn-round(href="https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022") Donate Now
+                //script(type="text/javascript", src="https://my.charitableimpact.com/widget/js/loader.js?MjIyNjIsbGFyZ2UsYmx1ZSxXb3JsZCBTa2F0ZSBHYW1lcyBUZWFtIENhbmFk%0AYSAyMDIyLGdyb3Vw%0A", id="chimp-button-script")
+
         // Portfolio Grid
         section#portfolio.page-section.bg-light
         .container
@@ -437,7 +442,9 @@ html(lang='en')
                 .row.align-items-center
                     .col-lg-4.text-lg-start
                         | Copyright &copy; Canada DH Skateboarding 2022
-                    //.col-lg-4.my-3.my-lg-0
+                    .col-lg-4.my-3.my-lg-0
+                        script(type="text/javascript", src="https://my.charitableimpact.com/widget/js/loader.js?MjIyNjIsbGFyZ2UsYmx1ZSxXb3JsZCBTa2F0ZSBHYW1lcyBUZWFtIENhbmFk%0AYSAyMDIyLGdyb3Vw%0A", id="chimp-button-script")
+
                     //    a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
                     //        i.fab.fa-twitter
                     //    a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
