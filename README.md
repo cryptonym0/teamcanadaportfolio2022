@@ -1,4 +1,4 @@
-### Oh shiz we need a website like, yesterday - Team Canada 2022
+
 
 Bootstrap Creds:
 
