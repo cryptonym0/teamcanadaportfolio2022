@@ -27,6 +27,14 @@ html(lang='en')
         link(href='css/styles.css', rel='stylesheet')
 
     body#page-top
+    -var donate_url = "https://my.charitableimpact.com/groups/world-skate-games-world-championships-team-canada-2023"
+    -var name_1 = "Dane Hanna"
+    -var name_2 = "Dexter Manning"
+    -var name_3 = "Alex Hannigan"
+    -var name_4 = "Matthew King"
+    -var name_5 = "Matteo Del Bigio"
+    -var name_6 = "Gavin Rutherford"
+
 
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
@@ -52,14 +60,14 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#contact') Contact
                         li.nav-item
-                            a.nav-link(href='https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022') Donate Here
+                            a.nav-link(href=donate_url) Donate Here
         // Masthead
         header.masthead
             .container
                 .masthead-subheading 2024 World Skate Games:
                 .masthead-heading.text-uppercase CANADIAN DOWNHILL TEAM
                 //a.btn.btn-primary.btn-xl.text-uppercase(href='#portfolio') Meet Our Athletes
-                a.btn.btn-primary.btn-xl.text-uppercase(href='https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022') Donate Here
+                a.btn.btn-primary.btn-xl.text-uppercase(href=donate_url) Donate Here
                 //a.btn.btn-primary.btn-xl.text-uppercase(href='https://www.eventbrite.ca/e/team-canada-downhill-skateboard-fundraiser-tickets-428866600547') Oct 22 Fundraiser Party Tickets
 
 
@@ -123,7 +131,7 @@ html(lang='en')
                                 h4 Sponsorships & Charitable Donations
                             .timeline-body
                                 p.text-muted
-                                    | We understand that you have several choices when considering different marketing and community outreach opportunities. By <a href="https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022"> assisting our athletic pursuits, </a> the Canadian Downhill Team will have the opportunity to defend our title, as we compete against the Worlds fastest and finest Downhill Skateboarders.
+                                    | We understand that you have several choices when considering different marketing and community outreach opportunities. By <a href="https://my.charitableimpact.com/groups/world-skate-games-world-championships-team-canada-2023"> assisting our athletic pursuits, </a> the Canadian Downhill Team will have the opportunity to defend our title, as we compete against the Worlds fastest and finest Downhill Skateboarders.
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/diane9.jpg', alt='Make a Charitable Impact')
@@ -132,7 +140,7 @@ html(lang='en')
                                 h4 Will my donation qualify for the charitable tax credit?
                             .timeline-body
                                 p.text-muted
-                                    | Yes! Canada Skateboard is a <a href="https://apps.cra-arc.gc.ca/ebci/hacc/srch/pub/dsplyRprtngPrd?q.srchNmFltr=skateboard&q.stts=0007&selectedCharityBn=703050294RR0001&dsrdPg=1"> not-for-profit corporation </a> (703050294RR0001), and a <a href="https://www.canada.ca/en/revenue-agency/services/charities-giving/other-organizations-that-issue-donation-receipts-qualified-donees/other-qualified-donees-listings/list-registered-canadian-amateur-athletic-associations.html#reg"> Registered Canadian Amateur Athletic Association </a>. We use <a href="https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022"> Charitable Impact </a> to accept donations and generate a <a href="https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/operating-a-registered-charity/issuing-receipts/what-information-must-on-official-donation-receipt-a-registered-charity.html"> donation receipt </a> for your tax return.
+                                    | Yes! Canada Skateboard is a <a href="https://apps.cra-arc.gc.ca/ebci/hacc/srch/pub/dsplyRprtngPrd?q.srchNmFltr=skateboard&q.stts=0007&selectedCharityBn=703050294RR0001&dsrdPg=1"> not-for-profit corporation </a> (703050294RR0001), and a <a href="https://www.canada.ca/en/revenue-agency/services/charities-giving/other-organizations-that-issue-donation-receipts-qualified-donees/other-qualified-donees-listings/list-registered-canadian-amateur-athletic-associations.html#reg"> Registered Canadian Amateur Athletic Association </a>. We use <a href="https://my.charitableimpact.com/groups/world-skate-games-world-championships-team-canada-2023"> Charitable Impact </a> to accept donations and generate a <a href="https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/operating-a-registered-charity/issuing-receipts/what-information-must-on-official-donation-receipt-a-registered-charity.html"> donation receipt </a> for your tax return.
                     li.timeline-inverted
                         .timeline-image
                             h4
@@ -170,7 +178,7 @@ html(lang='en')
                     p.text-muted
                         | Proper nutrition and rest are key to our athletes health and performance. Accommodation Include: Lodging and Meals during our stay in Argentina.
             .text-center(id="script_widget_button")
-                a.btn.btn-primary.btn-xl.btn-round(href="https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022") Donate Now
+                a.btn.btn-primary.btn-xl.btn-round(href=donate_url) Donate Now
                 //script(type="text/javascript", src="https://my.charitableimpact.com/widget/js/loader.js?MjIyNjIsbGFyZ2UsYmx1ZSxXb3JsZCBTa2F0ZSBHYW1lcyBUZWFtIENhbmFk%0AYSAyMDIyLGdyb3Vw%0A", id="chimp-button-script")
 
         // Portfolio Grid
@@ -190,7 +198,7 @@ html(lang='en')
                             //        i.fas.fa-plus.fa-3x
                             img.img-fluid(src='assets/img/portfolio/dane/dane2.jpg', alt='Dane Hanna Photo')
                         .portfolio-caption
-                            .portfolio-caption-heading Dane Hanna
+                            .portfolio-caption-heading #{name_1}
                             //.portfolio-caption-subheading.text-muted Pender Harbour, BC
                             .portfolio-caption-subheading.text-muted Downhill Skateboard Team
                 .col-lg-4.col-sm-6.mb-4
